@@ -1,0 +1,6 @@
+<t-tab-bar value="{{ value }}" theme="tag" split="{{ false }}" bind:change="handleChange">
+  <t-tab-bar-item icon="home" value="workbench">工作台</t-tab-bar-item>
+  <t-tab-bar-item icon="home" value="home">设备管理</t-tab-bar-item>
+  <t-tab-bar-item icon="chat" value="message" badge-props="{{ { count: unreadNum } }}">智慧问答</t-tab-bar-item>
+  <t-tab-bar-item icon="user" value="my">我的</t-tab-bar-item>
+</t-tab-bar>
